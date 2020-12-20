@@ -59,9 +59,13 @@ transform-style: preserve-3d;
         }
         
     @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-         .titulo{font-family: 'Lobster', cursive;
-            text-shadow:18px 5px 1px rgba(0, 0, 0, 0.51);
-            
+         .titulo1{font-family: 'Lobster', cursive;
+            text-shadow:18px 5px 1px rgba(0, 0, 0, 0.51);}
+            .titulo2{font-family: 'Lobster', cursive;
+                text-shadow:18px 5px 1px rgba(0, 0, 0, 0.51);}
+                .titulo3{font-family: 'Lobster', cursive;
+                    text-shadow:18px 5px 1px rgba(0, 0, 0, 0.51);
+                        
         }
          #menu a:hover {color: blue;}
         
@@ -161,35 +165,47 @@ transform-style: preserve-3d;
 
 
             @media screen and (min-width:981px) and (max-width:1200px){ 
-                .item{  clip-path: circle(34% at 50% 50%);}
-                .deslizante{position: absolute;
-                    left: 61%;
-                    top: 49%}
-                    .titulo{position: absolute;
-                        left: 31%;}
+              
+            .contenedor2{position: relative;
+            margin-left: -3%}
             
-            
+            .titulo1{position: relative;
+                }
+            .titulo2{position: relative;
+            margin-left: 17%;}
+            .titulo3{position: relative;
+            margin-left: 30%;}
+            .item{  clip-path: circle(34% at 50% 50%);}
+        
+        }
+                
+                
+                
+            @media screen and (min-width:581px) and (max-width:981px){
+                 
+                .deslizante{    position: absolute;
+                    left: 73%;
+                    top: 49%;
+                }
+                    .titulo1{position: absolute;
+                        left: 39%;}
+                    .titulo2{position: relative;
+                    margin-left: 39%;}
+                    .titulo3{position: relative;
+                    margin-left: 39%;}
+            .contenedor2{margin-left: -9%;
             }
-                
-                
-                
-            @media screen and (min-width:581px) and (max-width:980px){
-                .item{  clip-path: circle(34% at 50% 50%);}
-            .contenedor2{margin-left: -13%;
-            margin-right: -18%;}
-            .deslizante{margin-right: 3%;}
-            .redessociales img{width: 70%;}
-            .instagram p{overflow: auto;}
-            
+                 
         }
         
             @media screen and (min-width: 0px) and (max-width:581px){
-                .item{  clip-path: circle(31% at 50% 50%);}
-                .titulo{position: absolute;
-                    left: 6%;
-                    top: 78%;}
+                .item{  clip-path: circle(29% at 50% 50%);}
+            .contenedor2{margin-left: -16%; }
+            .titulo1{position: absolute;
+                left: 40%;
+                }
+            .deslizante{position: absolute;
+                left: 86%;}
+            .redessociales img{width: 70%;}
+            .instagram p{overflow: hidden;}}
             
-                .instagram p{overflow: auto;}
-        .whatsapp img{width: 85%;}
-    .facebook img{width: 75%;}
-.instagram img{width: 85%;}}
