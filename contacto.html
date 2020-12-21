@@ -44,8 +44,11 @@
 					<li class="nav-item">
 					  <a class="nav-link active" href="contacto.html"><div class="titulo3">Contacto</div></a>
 					</li>
-					
-			
+		
+
+
+
+
 				  </ul>
 				  <form class="d-flex" style="margin-left: 10%;">
 					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -58,30 +61,30 @@
 		
 	
 
- <section class="contacto container-fluid" >
+ <!--<section class="contacto container-fluid" >
 
-    <form action="" class="formulario" id="formulario">
-			<!-- Grupo: Usuario -->
+    <form action=""  netlify method="POST" class="formulario" id="formulario">
+			Grupo: Usuario 
 			<div class="formulario__grupo" id="grupo__usuario">
 				<label for="usuario" class="formulario__label">Usuario</label>
 				<div class="formulario__grupo-input">
 					<input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="john123">
-					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					
 				</div>
 				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
-			</div>
+			</div>-->
 
-			<!-- Grupo: Nombre -->
+			<!-- Grupo: Nombre 
 			<div class="formulario__grupo" id="grupo__nombre">
 				<label for="nombre" class="formulario__label">Nombre</label>
 				<div class="formulario__grupo-input">
 					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="John Doe">
-					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					
 				</div>
 				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
-			</div>
+			</div>-->
 
-			<!-- Grupo: Contraseña -->
+			<!-- Grupo: Contraseña 
 			<div class="formulario__grupo" id="grupo__password">
 				<label for="password" class="formulario__label">Contraseña</label>
 				<div class="formulario__grupo-input">
@@ -91,7 +94,7 @@
 				<p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
 			</div>
 
-			<!-- Grupo: Contraseña 2 -->
+		 Grupo: Contraseña 2 
 			<div class="formulario__grupo" id="grupo__password2">
 				<label for="password2" class="formulario__label">Repetir Contraseña</label>
 				<div class="formulario__grupo-input">
@@ -99,29 +102,29 @@
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
-			</div>
+			</div>-->
 
-			<!-- Grupo: Correo Electronico -->
+			<!-- Grupo: Correo Electronico 
 			<div class="formulario__grupo" id="grupo__correo">
 				<label for="correo" class="formulario__label">Correo Electrónico</label>
 				<div class="formulario__grupo-input">
 					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
-					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					
 				</div>
 				<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
-			</div>
+			</div>-->
 
-			<!-- Grupo: Teléfono -->
+			<!-- Grupo: Teléfono 
 			<div class="formulario__grupo" id="grupo__telefono">
 				<label for="telefono" class="formulario__label">Teléfono</label>
 				<div class="formulario__grupo-input">
 					<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
-					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					
 				</div>
 				<p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
-			</div>
+			</div>-->
 
-			<!-- Grupo: Terminos y Condiciones -->
+			<!-- Grupo: Terminos y Condiciones 
 			<div class="formulario__grupo" id="grupo__terminos">
 				<label class="formulario__label">
 					<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
@@ -136,11 +139,38 @@
 			<div class="formulario__grupo formulario__grupo-btn-enviar">
 				<button type="submit" class="formulario__btn">Enviar</button>
 				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
-			</div>
+			
+			
+					  
 		</form>
- </section>
-  
+ 
 
+
+
+					
+
+					
+
+</div>
+
+</section>>-->
+<section class=" contacto container fluid" id="contacto">
+<div class="container">
+	<form action="" netlify method="post">
+		<div class="form-group">
+					  <label for="">Nombre</label>
+					  <input type="text" name="" id="nombre" class="form-control" placeholder="" aria-describedby="helpId">
+					  <small id="helpId" class="text-muted">Help text</small>
+					</div>
+					
+					<div class="form-group">
+						<label for="">Email</label>
+						<input type="text" name="" id="email" class="form-control" placeholder="" aria-describedby="helpId">
+						<small id="helpId" class="text-muted">Help text</small>
+					  </div>
+					  <button type="submit" class="btn btn-primary">enviar</button>
+					  </form>
+					</section>
 
 </div><!--contenedor-->
 <footer>
